@@ -18,46 +18,18 @@ On the right side, find and click on the functions.php file.
 Scroll to the bottom of the file and paste the following code snippet:
 
 **_function remove_product_description_hyperlinks($content) {_**
-    **_if (is_product()) {_**
-        _// Remove hyperlinks from the product description_
-        **_$content = preg_replace('/<a(.*?)>(.*?)<\/a>/', '$2', $content); }_**
-    **_return $content;}_**
+
+**_if (is_product()) {_**
+
+_// Remove hyperlinks from the product description_
+
+**_$content = preg_replace('/<a(.*?)>(.*?)<\/a>/', '$2', $content); }_**
+
+**_return $content;}_**
+
 **_add_filter('the_content', 'remove_product_description_hyperlinks', 20);_**
 
-
-
-
-
-
-
-
-
-
-
-function remove_product_description_hyperlinks($content) {
-
-if (is_product()) {
-
-// Remove hyperlinks from the product description
-
-$content = preg_replace('/<a(.*?)>(.*?)<\/a>/', '$2', $content); }
-
-return $content; }
-
-add_filter('the_content', 'remove_product_description_hyperlinks', 20);
-
-
-
-
-
-
-
-
-
-
-
-
-Save Changes:
+# Save Changes:
 
 Click the "Update File" button to save your changes.
 Enjoy Clean Product Descriptions:
