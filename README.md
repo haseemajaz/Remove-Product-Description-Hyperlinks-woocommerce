@@ -2,9 +2,11 @@
 This handy piece of code allows you to enhance the presentation of your WooCommerce product descriptions by removing hyperlinks, making your product pages cleaner and more user-friendly.
 
 **What Does This Code Snippet Do?**
+
 When you're running an online store using WooCommerce, you might have product descriptions with hyperlinks that link to other pages or products. While hyperlinks are valuable in many contexts, sometimes they can clutter your product descriptions or distract potential customers. This is where the "Remove Product Description Hyperlinks" code snippet comes to the rescue. This simple WordPress code snippet is designed to be added to your theme's functions.php file. It targets product pages specifically. When added and activated, it scans the product description content and intelligently removes any hyperlinks, leaving behind only the clean, unlinked text. This helps to streamline your product pages, creating a more focused and aesthetically pleasing shopping experience for your customers.
 
 **How to Use This Code Snippet**
+
 If you want to integrate this functionality into your WooCommerce store, follow these simple steps:
 
 Access the functions.php File:
