@@ -17,6 +17,8 @@ Add the Code Snippet:
 On the right side, find and click on the functions.php file.
 Scroll to the bottom of the file and paste the following code snippet:
 
+# Code Snippet
+
 **_function remove_product_description_hyperlinks($content) {_**
 
 **_if (is_product()) {_**
