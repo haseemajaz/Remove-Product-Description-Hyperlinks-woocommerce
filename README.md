@@ -35,12 +35,15 @@ Scroll to the bottom of the file and paste the following code snippet:
 
 
 function remove_product_description_hyperlinks($content) {
-    if (is_product()) {
-        // Remove hyperlinks from the product description
-        $content = preg_replace('/<a(.*?)>(.*?)<\/a>/', '$2', $content);
-    }
-    return $content;
-}
+
+if (is_product()) {
+
+// Remove hyperlinks from the product description
+
+$content = preg_replace('/<a(.*?)>(.*?)<\/a>/', '$2', $content); }
+
+return $content; }
+
 add_filter('the_content', 'remove_product_description_hyperlinks', 20);
 
 
